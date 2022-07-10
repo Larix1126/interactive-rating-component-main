@@ -1,0 +1,109 @@
+@media only screen and (max-width: 425px) {
+  body {
+    width: 100%vw;
+  }
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.card {
+  padding: 2%;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 25px;
+  max-width: 400px;
+}
+.star-container {
+  background: hsla(216, 12%, 54%, 0.11);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-star {
+  width: 40%;
+}
+
+.announcement {
+  color: hsl(216, 12%, 54%);
+}
+.rating {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+.rate {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: hsla(216, 12%, 54%, 0.11);
+  color: hsl(0, 2%, 61%);
+}
+.rate:hover {
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.active {
+  background: hsla(213, 5%, 64%, 0.534);
+  color: hsl(0, 0%, 100%);
+}
+.submitButton {
+  background: hsl(25, 97%, 53%);
+  width: 100%;
+  height: 3em;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+}
+.submitButton:hover {
+  background: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.card-after-submit {
+  padding: 2%;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 25px;
+  max-width: 400px;
+  text-align: center;
+}
+.illustration {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+}
+.score {
+  margin: 0 auto;
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  width: 50%;
+  padding: 2% 0;
+  background: hsla(216, 12%, 54%, 0.11);
+  border-radius: 50px;
+}
+.note {
+  color: hsl(216, 12%, 54%);
+}
+.hidden {
+  display: none;
+}
+.attribution {
+  color: blue;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}

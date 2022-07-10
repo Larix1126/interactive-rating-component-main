@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="star-container">
+        <img class="icon-star" src="images/icon-star.svg" alt="star-icon" />
+      </div>
+      <header>
+        <h1>How did we do?</h1>
+        <span class="announcement">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </span>
+      </header>
+      <div class="rating">
+        <button class="rate" value="1" valueButton>1</button>
+        <button class="rate" value="2" valueButton>2</button>
+        <button class="rate" value="3" valueButton>3</button>
+        <button class="rate" value="4" valueButton>4</button>
+        <button class="rate" value="5" valueButton>5</button>
+      </div>
+
+      <button class="submitButton">Submit</button>
+    </div>
+    <div class="card-after-submit hidden">
+      <div class="illustration">
+        <img
+          class="illustration"
+          src="images/illustration-thank-you.svg"
+          alt="star-icon"
+        />
+      </div>
+      <div class="score">
+        You selected <span class="scored"></span> out of 5
+      </div>
+      <header>
+        <h1>Thank you!</h1>
+        <span class="note">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </span>
+      </header>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/larix1126" target="_blank">Larix1126</a>.
+    </div>
+  </footer>
+</html>
